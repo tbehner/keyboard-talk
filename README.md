@@ -6,6 +6,16 @@ In the latest years the custom mechanical keyboard scene has blown up significan
 
 In this talk I'll walk you through the deep end of the custom ergonomic mechanical keyboard rabbit hole and explain why 34 keys is all you need (really!) and what are the benefits of such a keyboard.
 
+### Recording
+
+The recording of the talk is available here:
+
+<p align="center">
+  <a href="https://youtu.be/unMXQTSQEak?si=cy6rs9Fst8yIoo9g">
+    <img width="720" alt="Youtube video link" src="https://github.com/user-attachments/assets/901d4a9a-0fff-40ac-8e82-8701f553064b" />
+  </a>
+</p>
+
 ### Detail
 
 In this talk I'll focus on various aspect of modern keyboards and their outdated design and walk through the improvements the open source community brought to this field.
