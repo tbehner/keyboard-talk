@@ -594,7 +594,7 @@ We have now covered all the feature and techniques that can improve our keyboard
 
 ---
 
-# Base layer
+### Base layer
 
 ![w:900](./media/miryoku/0_base/full_104.png)
 
@@ -608,7 +608,7 @@ As you can see the hardware ticks all the boxes: it's split, it has a thumb clus
 
 ---
 
-# Base layer
+### Base layer
 
 ![w:900](./media/miryoku/1_base/104_full.png)
 
@@ -620,7 +620,7 @@ Let's start with the basics: simple characters are where we expect them to be.
 
 ---
 
-# Base layer
+### Base layer
 
 ![w:900](./media/miryoku/2_base/104_full.png)
 
@@ -636,7 +636,7 @@ Furthermore we'll need layers to fit everything into this keyboard, thumbs will 
 
 ---
 
-# Base layer
+### Base layer
 
 ![w:900](./media/miryoku/3_base/full_104.png)
 
@@ -650,7 +650,7 @@ As you can see we've covered a large part of the keys from the full-size keyboar
 
 ---
 
-# Num layer
+### Num layer
 
 ![w:900](./media/miryoku/0_num/full_104.png)
 
@@ -666,7 +666,7 @@ Symbols are the same as reported in the num row, which means that you'll find th
 
 ---
 
-# Fun layer
+### Fun layer
 
 ![w:900](./media/miryoku/0_fun/full_104.png)
 
@@ -682,7 +682,7 @@ We already know where most of our keys are located.
 
 ---
 
-# Nav layer
+### Nav layer
 
 ![w:900](./media/miryoku/0_nav/full_104.png)
 
