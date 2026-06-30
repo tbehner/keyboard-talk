@@ -5,7 +5,7 @@ class:
 - invert
 paginate: true
 size: 16:9
-author: Mattia Dal Ben
+author: Timm Behner
 transition: fade
 ---
 
@@ -14,7 +14,7 @@ transition: fade
 ## <!--fit--> 34 keys is all you need 
 _An ergonomic mechanical keyboard journey_
 
-<!-- _footer: Author: Mattia Dal Ben -->
+<!-- _footer: Author: Timm Behner -->
 <!-- _paginate: false -->
 
 <!--
@@ -24,23 +24,14 @@ I'm here today to try and convince you that 34 is totally reasonable amount of k
 
 ---
 
-####  Who am I?
+### A shameless fork
 
-- Master degree in EE
-- Work as SWE @ Eurotech
-- Mechanical keyboard enthusiast and maker
-- Designed the _Redox Keyboard_ and the _Yampad_
-
-![bg right](media/yampad.jpg)
+- This workshop is based on [Mattia Dal Ben's original EclipseCon talk](https://github.com/mattia-dalben/eclipsecon-keyboard-talk)
+- The content aligns closely with my own ergonomic keyboard journey
+- All credit for the original research and structure goes to Mattia
 
 <!--
-Let's start by presenting myself
-* I'm Mattia Dal Ben
-* I'm from Italy
-* I have a master degree in Electronic Engineering
-* I work as a Software Engineer at Eurotech
-* I'm a keyboard addict
-* I designed a few projects that are quite popular in the keyboard community: the Redox keyboard and the Yampad
+Before we dive in: I want to be upfront that this talk is heavily based on work by Mattia Dal Ben. I didn't reinvent the wheel here — his research and structure were solid and match my own experience very closely, so I forked it rather than starting from scratch. Where it differs, it reflects my own setup and perspective.
 -->
 
 ---
@@ -731,7 +722,7 @@ Everything is open source obviously...
 
 <!-- _footer: Pic: Ferris Sweep Half Swept in custom 3D printed case w/ Nice!NanosV2 running ZMK -->
 
-![bg cover](./media/ferris2.jpg)
+![bg cover](./media/minidox.jpg)
 
 <!--
 Finally... this is my current daily driver keyboard: a Ferris Sweep Half Swept running Miryoku ZMK... and I like it a lot
@@ -739,16 +730,16 @@ Finally... this is my current daily driver keyboard: a Ferris Sweep Half Swept r
 
 ---
 
-![bg cover opacity blur](./media/ferris2.jpg)
+![bg cover opacity blur](./media/minidox.jpg)
 
 # Personal experience
 
-* It improved my typing habits
-* The "limitations" of this keyboard made me discover new *improved* typing habits
+* It improved my typing comfort
+* It improved my typing speed
 * Shortcuts are *so much more comfortable to type*
 * Improved symbols access
 * I've yet to encounter a key combination that I cannot type
-* It is **FUN**
+* Faster access to often used shortcuts
 
 <!--
 Here's why:
@@ -803,7 +794,9 @@ Reddit post: https://www.reddit.com/r/ErgoMechKeyboards/comments/wy4e3a/my_ergon
 
 ---
 
-# <!-- fit --> Questions?
+# <!-- fit --> Live Demo
+
+Let's take a tour through my personal QMK config and look at some features!
 
 ---
 
