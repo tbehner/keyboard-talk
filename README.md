@@ -1,5 +1,7 @@
 # EclipseCON 2022 Talk: "_34 keys is all you need: an ergonomic keyboard journey_"
 
+> **Note:** This is a personal adaptation of the [original talk by mattdibi](https://github.com/mattdibi/eclipsecon-keyboard-talk).
+
 ### Description
 
 In the latest years the custom mechanical keyboard scene has blown up significantly, reaching mainstream status among (not only) software developers. Nevertheless there's an overlooked niche of this hobby that greatly benefits from the open source ecosystem and the online community: ergonomic mechanical keyboard.
@@ -34,15 +36,31 @@ A pre-built version of the presentation is available in the [`gh-pages` branch](
 
 These slides are using [Marp](https://marp.app/) Markdown Presentation Ecosystem. Usage documentation can be found [here](https://marpit.marp.app/). Example [here](https://speakerdeck.com/yhatt/marp-basic-example?slide=20) and [here](https://raw.githubusercontent.com/hahnec/marp-recipes/master/marp_recipes.pdf).
 
-For building the slides in this repository using the [official Docker image](https://hub.docker.com/r/marpteam/marp-cli/) use the following commands:
+### Using Nix (recommended)
+
+This repository includes a Nix flake that provides a dev shell with `marp-cli` and convenience commands.
+
+Enter the dev shell:
 
 ```bash
-git clone https://github.com/mattdibi/eclipsecon-keyboard-talk.git
+nix develop
 ```
 
+Convert slide deck into HTML:
+
 ```bash
-cd path/to/eclipsecon-keyboard-talk
+slides-build
 ```
+
+Or serve the presentation in watch mode at http://localhost:8081/:
+
+```bash
+slides-serve
+```
+
+### Using Docker
+
+Alternatively, use the [official Marp Docker image](https://hub.docker.com/r/marpteam/marp-cli/):
 
 Convert slide deck into HTML:
 
@@ -50,10 +68,10 @@ Convert slide deck into HTML:
 docker run --rm \
     -v $PWD:/home/marp/app/ \
     -e LANG=$LANG \
-    marpteam/marp-cli --bespoke.progress --preview slides.md
+    marpteam/marp-cli --bespoke.progress slides.md
 ```
 
-or use server mode (serve current directory in http://localhost:8080/)
+Or use server mode (serve current directory at http://localhost:8080/):
 
 ```bash
 docker run --rm --init \
